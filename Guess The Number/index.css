@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:palegoldenrod;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Remove arrows from number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"]{
+    appearance: textfield;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#msg{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}

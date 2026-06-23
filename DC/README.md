@@ -5,7 +5,7 @@ This is a JavaScript project that displays the current time in real-time using h
 
 ## Flow:
 - Page loads in browser
-- JavaScript gets current system time using new Date()
+- JavaScript gets current system time and date using new Date()
 - Hours, minutes, and seconds are extracted
 - Time is formatted properly (for example leading zeroes like 09:05:02)
 - Clock display updates on screen

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: pink;
+}
+.container {
+  width: 650px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+h1 {
+  text-align: center;
+  color: #172c66;
+  margin-bottom: 25px;
+  font-size: 42px;
+}
+.input-area {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+#box {
+  flex: 1;
+  padding: 14px;
+  font-size: 18px;
+  border: 2px solid #d8eefe;
+  border-radius: 10px;
+  outline: none;
+}
+#box:focus {
+  border-color: #f582ae;
+}
+#btn {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #f582ae;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#btn:hover {
+  transform: scale(1.05);
+}
+#list {
+  list-style: none;
+}
+#list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d8eefe;
+  color: #172c66;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#list li button {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#list li button:hover {
+  background: #e63946;
+}
